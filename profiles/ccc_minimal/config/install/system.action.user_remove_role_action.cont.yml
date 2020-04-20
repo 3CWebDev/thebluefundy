@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cont
+  module:
+    - user
+id: user_remove_role_action.cont
+label: 'Remove the Content Admin role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: cont

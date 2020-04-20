@@ -1,0 +1,125 @@
+/* Account Menu */
+@media screen and (min-width: 960px) {
+  #block-ccc-basic-account-menu{
+    position: absolute;
+    top:0;
+    right:0;
+    font-size:.8em;
+  }
+}
+@media screen and (max-width: 959px) {
+   #block-ccc-basic-account-menu{
+    display:none;
+   }
+}
+
+#block-ccc-basic-account-menu ul,
+#block-ccc-basic-account-menu li{
+  list-style-type: none;
+}
+
+#block-ccc-basic-account-menu li{
+  display:inline-block;
+  padding:0 .5em 0 0;
+}
+
+#block-ccc-basic-account-menu li{
+  border-right:1px solid #ccc;  
+}
+
+#block-ccc-basic-account-menu ul li:last-child{
+  border:none;
+}
+
+/* Nav Bar */
+#navbar{
+  background-color:#095cb1;
+  float:left;
+  width:100%;  
+}
+
+ul.sf-menu.sf-style-blue{
+  margin-bottom:0;
+}
+
+.sf-accordion-toggle{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:10000;
+}
+
+#superfish-main-accordion{
+  position:fixed;
+  top:3.5em;
+  left:0;
+  width:100%;
+}
+
+
+
+#navbar ul.sf-style-blue.sf-menu{
+  margin-bottom:0;
+}
+
+/* Breadcrumbs */
+#block-breadcrumbs{
+  padding-top:1em;
+}
+.breadcrumb { 
+  list-style: none; 
+  overflow: hidden; 
+  
+}
+.breadcrumb li { 
+  float: left; 
+}
+.breadcrumb li a{
+  color: #fff;
+  text-decoration: none; 
+  padding: 3px 0 3px 35px;  
+  background: #095cb1; 
+  position: relative; 
+  display: block;
+  float: left;
+}
+.breadcrumb li a:hover{
+  color:#888;
+}
+.breadcrumb li a:hover{
+  background: rgba(95, 226, 68, .75);
+}
+.breadcrumb li a:after{ 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid #095cb1;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  left: 100%;
+  z-index: 2; 
+}
+
+.breadcrumb li a:before { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;       
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1; 
+}
+.breadcrumb li a:hover:after{
+  border-left: 30px solid rgba(95, 226, 68,.75);
+}

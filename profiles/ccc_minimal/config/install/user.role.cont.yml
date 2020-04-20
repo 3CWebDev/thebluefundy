@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cont
+label: 'Content Admin'
+weight: 4
+is_admin: null
+permissions:
+  - 'use add another'
+  - 'use text format full_html'
+  - 'create basic_page content'
+  - 'delete own basic_page content'
+  - 'edit any basic_page content'
+  - 'edit own basic_page content'
+  - 'access administration pages'
+  - 'access site in maintenance mode'
+  - 'view the administration theme'
+  - 'access toolbar'

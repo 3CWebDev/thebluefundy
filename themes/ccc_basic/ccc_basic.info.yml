@@ -1,0 +1,19 @@
+name: CCC Basic Theme
+type: theme
+description: 'A custom theme bases off of the Basic theme.'
+core: 8.x
+base theme: basic
+libraries:
+  - 'ccc_basic/global-styling'
+  - 'ccc_basic/fonts'
+regions:
+  header: Header
+  help: Help
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+  navbar: Navbar

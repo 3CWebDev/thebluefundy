@@ -1,0 +1,52 @@
+name: CCC Minimal
+type: profile
+description: 'Build a custom site without pre-configured functionality. Suitable for advanced users.'
+version: 8.1.0
+core: 8.x
+project: 'drupal'
+dependencies:
+  - addanother
+  - block
+  - block_content
+  - breakpoint
+  - config
+  - ctools
+  - dblog
+  - dynamic_page_cache
+  - field
+  - field_group
+  - field_ui
+  - file
+  - filter
+  - image
+  - link
+  - menu_link_content
+  - menu_ui
+  - metatag
+  - module_filter
+  - node
+  - override_node_options
+  - page_cache
+  - path
+  - pathauto
+  - prlp
+  - responsive_image
+  - super_login
+  - system
+  - taxonomy
+  - telephone
+  - text
+  - token
+  - toolbar
+  - update
+  - user
+  - userprotect
+  - views
+  - views_ui  
+themes:
+  - stark
+  - stable
+  - classy
+  - bartik  
+
+

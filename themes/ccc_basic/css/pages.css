@@ -1,0 +1,85 @@
+.map{
+  background:url(images/maps-and-flags.png) left center no-repeat;
+  display:inline-block;
+  padding-left:2em;
+  line-height:2em;
+}
+a.map{
+  color:#004a89;
+}
+.page-forms .views-field-title,
+.page-forms .views-field-title img{
+  vertical-align: middle;
+}
+#header{
+  background:rgba(255,255,255,.5);
+}
+.site-name a{
+  color:#004a89;
+}
+#block-contactheader p,
+#block-contactheader address{
+  text-align: center;
+  font-size:1.25em;
+  margin-bottom:1em;    
+  color:#333;
+}
+
+#block-headerphone p{
+  color: #fff;
+  float: right;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  line-height: 2em;  
+}
+
+.phone{
+  background-image: url(images/phone.svg);
+  display:inline-block;
+  height:1.5em;
+  width:1.5em;  
+  background-size: 1.5em;  
+  background-repeat: no-repeat;
+  background-position:center;
+  vertical-align: middle;
+}
+
+#footer .phone,
+.page-contact #content-area .phone{
+  background-image: url(images/phone-black.svg);
+}
+
+.page-downloads .views-field-title{  
+  height:100px;
+  line-height:100px;
+  vertical-align: middle;
+}
+.page-downloads .views-field-title img{
+  vertical-align: middle;
+}
+
+
+@media only screen and (max-width: 65em) {
+    #block-headerphone{
+      position: absolute;
+      top:0;
+      right:1em;
+    }
+    #block-headerphone p{
+      color:#333;
+    }    
+    .phone{
+     background-image: url(images/phone-black.svg); 
+    }    
+}
+
+@media only screen and (max-width: 30em){
+  #block-headerphone{
+    display:none;
+  }
+}
+
+.path-user input[type=submit]{
+  background-image:none;
+}

@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies: {  }
+id: site_admin
+label: 'Site Admin'
+weight: 3
+is_admin: null
+permissions:
+  - 'use add another'
+  - 'access files overview'
+  - 'use text format full_html'
+  - 'create basic_page content'
+  - 'delete any basic_page content'
+  - 'delete own basic_page content'
+  - 'edit any basic_page content'
+  - 'edit own basic_page content'
+  - 'override basic_page authored by option'
+  - 'override basic_page authored on option'
+  - 'override basic_page promote to front page option'
+  - 'override basic_page published option'
+  - 'access administration pages'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'view the administration theme'
+  - 'access toolbar'
+  - 'administer users'
